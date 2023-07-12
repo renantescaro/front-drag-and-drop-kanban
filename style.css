@@ -1,0 +1,29 @@
+
+.panel {
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.initial-queue {
+    border: 2px solid #b134eb;
+}
+
+.queues {
+    min-height: 500px;
+    margin: 5px;
+    border: 2px solid #b134eb;
+    background-color: #ccded8;
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.ticket {
+    background-color: #b134eb;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}

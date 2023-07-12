@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kanban Example Test</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="panel">
+        <div class="initial-queue queues" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            Fila Inicial
+            <div id="ticket1" class="ticket" draggable="true" ondragstart="onDragStart(event);">
+                Atendimento 1
+            </div>
+            <div id="ticket2" class="ticket" draggable="true" ondragstart="onDragStart(event);">
+                Atendimento 2
+            </div>
+            <div id="ticket3" class="ticket" draggable="true" ondragstart="onDragStart(event);">
+                Atendimento 3
+            </div>
+            <div id="ticket4" class="ticket" draggable="true" ondragstart="onDragStart(event);">
+                Atendimento 4
+            </div>
+            <div id="ticket5" class="ticket" draggable="true" ondragstart="onDragStart(event);">
+                Atendimento 5
+            </div>
+        </div>
+
+        <div class="queues" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            Em atendimento
+        </div>
+
+        <div class="queues" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            Finalizados
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
